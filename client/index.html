@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dstat Real Time Server Monitor</title>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <script src="js/highcharts/api/js/jquery.min.js"></script>
+    <script src="js/highcharts/js/highcharts.src.js"></script>
+    <script src="js/papaparse.min.js"></script>
+    <script src="js/socket.io-client/socket.io.js"></script>
+    <script src="js/dstat.js"></script>
+</head>
+<body>
+
+<div id="dashboardCharts"></div>
+
+<script>
+    var url = "http://localhost:3016";
+
+    /*
+     Init our parser
+     */
+    var parser = new DstatCsvParser({parser: Papa});
+    var headerMap = null;
+
+    // TODO: Refactor for using with plugins as "top-*" for future versions.
+    var getPoint = function(index, data, tm) {
+        var dataCellModel = new dsSubLabel({name: "*", data: data[index]});
+        var values = dataCellModel.getValues();
+
+        var point = {
+            x: tm,
+            y: values[1] || values[0]
+        };
+
+        if (dataCellModel.getItem()) {
+            point.name = dataCellModel.getItem();
+        }
+
+        return point;
+    };
+
+    var updateCharts = function (charts, data) {
+        var tm = (new Date()).getTime();
+
+        for (var i=0; i < charts.length; i++) {
+            var chart = charts[i];
+            var header = headerMap[i];
+            var subLabels = header.subLabels;
+
+            for(var subLabel in subLabels) {
+                var serie = chart.get(subLabel);
+                serie.addPoint(getPoint(subLabels[subLabel], data, tm), false, true);
+             }
+         }
+
+        for (var i=0; i < charts.length; i++) {
+            charts[i].redraw();
+        }
+    };
+
+    /**
+     * Create chart object, init data, bind to html element
+     */
+    var createChart = function (holder, title, subLabels) {
+
+        var xAxis = {
+            type: 'datetime',
+            tickPixelInterval: 150
+        };
+
+        var series = [];
+
+        for (var subLabel in subLabels) {
+
+            var serie = {
+                id: subLabel,
+                name: subLabel
+
+                /*
+                Very very very slow when enabled. I'll try to find solution for this.
+                Maybe I'll try to use different chart library. Highcharts is very cool,
+                 but sometimes it works slow.
+                */
+/*
+                 ,
+                 dataLabels: {
+                    enabled: true,
+                    format: '{point.name}',
+                     allowOverlap: true
+                }
+*/
+            };
+
+            var data = [];
+            var time = (new Date()).getTime();
+
+            for (var i = -60 * 5; i < 0; i++) {
+                data.push({
+                    x: time + i * 1000,
+                    y: 0
+                });
+            }
+
+            serie.data = data;
+            series.push(serie);
+        }
+
+        var chart = $(holder).highcharts({
+            credits: {
+              enabled: false
+            },
+            chart: {
+                type: 'area',
+                animation: false,
+                marginRight: 10
+            },
+            title: {
+                text: title
+            },
+            xAxis: xAxis,
+            yAxis: {
+                title: {
+                    text: 'Value'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                animation: false,
+                borderWidth: 0,
+                enabled: false
+            },
+            legend: {
+                enabled: true
+            },
+            exporting: {
+                enabled: false
+            },
+            series: series,
+            plotOptions: {
+                series: {
+                    enableMouseTracking: false,
+                    animation: false
+                },
+                area: {
+                    lineWidth: 0,
+                    fillOpacity: 0.5
+                },
+                line: {
+                    marker: {
+                        enabled: false,
+                        radius: 1
+                    }
+                }
+            },
+            navigator: {
+                enabled: false,
+                adaptToUpdatedData: false
+            }
+        });
+
+        return chart.highcharts();
+    };
+
+    /**
+     * Create, init and render new chart
+     * @param label
+     */
+    var addChart = function (container, label) {
+        var chartHolder = $("<div />", {"class": "wrapper", "style": "float:left; width:49%; height:290px;"})
+                .appendTo(container);
+
+        var labelName = label.name;
+        var subLabels = label.subLabels;
+
+        return createChart(chartHolder, labelName, subLabels);
+    };
+
+    var initCharts = function (headerMap) {
+//        console.log("###############", headerMap);
+
+        var labelsCount = headerMap.length;
+        var charts = [];
+        var chartsContainer = $("#dashboardCharts");
+
+        for(var i=0; i< labelsCount; i++) {
+            var headerlabel = headerMap[i];
+
+            var chart = addChart(chartsContainer, headerlabel);
+            charts[i] = chart;
+        }
+
+        return charts;
+    };
+
+    var initConnection = function () {
+
+        var charts = [];
+
+        var socket = io.connect(url, {reconnection: false});
+        socket.on('connect', function () {
+
+            console.log("I am connected! Send header request...");
+            socket.emit('message', 'header');
+
+            socket.on('message', function (msg) {
+
+                switch (msg.type) {
+                    case 'header':
+                        console.log('Header received...');
+                        headerMap = parser.buildHeaderMap(msg.data);
+                        console.log('Header parsed...');
+                        console.log("Prepare all charts...");
+
+                        charts = initCharts(headerMap);
+                        console.log('Send sampling data request...');
+                        socket.emit('message', 'sampling');
+                        break;
+
+                    case 'sampling':
+                        var dataRowArr = parser.parseDataRow(msg.data);
+                        updateCharts(charts, dataRowArr);
+
+                        break;
+                }
+            });
+        });
+
+        socket.on('disconnect', function () {
+            console.log("Server disconnected...");
+        });
+    };
+
+    initConnection();
+</script>
+
+</body>
+</html>
