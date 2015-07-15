@@ -18,3 +18,5 @@ Run "node app.js"
 
 Run "pip install pymongo" to be able use --mongodb plugin
 Run "apt-get install python-mysqldb" to be able to use --mysql5-* plugins
+
+![demo](screenshots/1.png)
