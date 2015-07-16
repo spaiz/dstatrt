@@ -35,9 +35,9 @@ Run "pip install pymongo" to be able use --mongodb plugin
 Run "apt-get install python-mysqldb" to be able to use --mysql5-* plugins
 
 Official dstat github:
-https://github.com/dagwieers/dstat
+[https://github.com/dagwieers/dstat](https://github.com/dagwieers/dstat)
 
 You can also download additional plugins (for example dstat_mongodb_cmds.py) from here:
-https://github.com/gianpaj/dstat/tree/master/plugins
+[https://github.com/gianpaj/dstat/tree/master/plugins](https://github.com/gianpaj/dstat/tree/master/plugins)
 
 ![demo](screenshots/1.png)
