@@ -4,6 +4,8 @@ This is a simple WebSockets based Dstat Server & Client. You can run it on your 
 
 With a beatifull [Highcharts](http://www.highcharts.com/) lib, this tool becomes very helpfull when you want to do some benchmarks on your server, and to see it as a graph, rather then dry numbers.
 
+![demo](screenshots/1.gif)
+
 DRAFT!!!!
 
 To install it on the server:
@@ -39,5 +41,3 @@ Official dstat github:
 
 You can also download additional plugins (for example dstat_mongodb_cmds.py) from here:
 [https://github.com/gianpaj/dstat/tree/master/plugins](https://github.com/gianpaj/dstat/tree/master/plugins)
-
-![demo](screenshots/1.gif)
