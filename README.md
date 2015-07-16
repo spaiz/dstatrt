@@ -40,4 +40,4 @@ Official dstat github:
 You can also download additional plugins (for example dstat_mongodb_cmds.py) from here:
 [https://github.com/gianpaj/dstat/tree/master/plugins](https://github.com/gianpaj/dstat/tree/master/plugins)
 
-![demo](screenshots/1.png)
+![demo](screenshots/1.gif)
