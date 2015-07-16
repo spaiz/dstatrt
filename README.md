@@ -33,8 +33,10 @@ You can edit **dstatrt/config.js** file. You can enable/disable dstat plugins, d
 
 Additional notes. To be able to use such helpfull plugins as mysql5-* and mongoddb, you must have this things to be installed.
 
-Run "pip install pymongo" to be able use --mongodb plugin
-Run "apt-get install python-mysqldb" to be able to use --mysql5-* plugins
+- "**pip install pymongo**" to be able use --mongodb plugin
+- "**apt-get install python-mysqldb**" to be able to use --mysql5-* plugins
+- Remember to change login & password for MySQL in dstat/config.js
+- Remember to copy mongodb plugin **dstat_mongodb_cmds.py** from https://github.com/gianpaj/dstat/tree/master/plugins to **/usr/share/dstat/plugins/** to be able use plugin **--mongodb-cmds**
 
 Official dstat github:
 [https://github.com/dagwieers/dstat](https://github.com/dagwieers/dstat)
