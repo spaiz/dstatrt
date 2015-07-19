@@ -22,7 +22,7 @@ function monitor(config) {
 
     var server = io.listen(port);
 
-    console.log("Server started. Now you can connect with the client...");
+    console.log("Server started on port %d .... wait for header parsing complete...", port);
 
     function log(data, opt) {
         opt = opt || "";
@@ -34,21 +34,31 @@ function monitor(config) {
     var stream = fs.createReadStream(dataBuffer);
 
     function serverStat(server) {
-            var connected = Object.keys(server.engine.clients);
-            console.log("Total connected users:", connected.length || "0");
+        var connected = Object.keys(server.engine.clients);
+        console.log("Total connected users:", connected.length || "0");
     }
 
     /**
      * Init our WebSockets, cache, callbacks, and create connections
      */
     function initWebSocket(stream) {
+
+        header = parseHeader(beginData);
+
+        if (!header) {
+            stream.close();
+            throw "Failed to parse header... Please report a bug to github repository";
+        }
+
+        console.log("Header parsing completed. Now you can connect with the client...");
+
         stream.resume();
         server.sockets.on('connection', function (socket) {
             log("New user connected...");
             serverStat(server);
 
             /**
-             * Data receved from data buffer (pipe) are sent to the client
+             * Data received from data buffer (pipe) are sent to the client
              * @param data
              */
             function dataReceived(data) {
@@ -99,22 +109,30 @@ function monitor(config) {
 
     var beginData = [];
 
-    var parseHeader = function (data, plugins) {
-        var first = plugins[0].replace('--', '"');
+    /**
+     * Extract data headers (labels and sub labels) and store in cache
+     * @param data
+     * @returns {*}
+     */
+    function parseHeader(data) {
+        var header;
 
-        for (var i = 0; i < beginData.length; i++) {
-            var head = beginData[i].indexOf(first);
+        data = data.filter(function (item) {
+            return item !== "";
+        });
+
+        for (var i = 0; i < data.length; i++) {
+            var head = data[i].indexOf("\"Cmdline:\",");
 
             if (head === 0) {
-                header = beginData[i] + "\n" + beginData[++i];
+                i += 1;
+                header = data[i] + "\n" + data[++i];
                 break;
             }
         }
 
-        beginData = null;
-
         return header;
-    };
+    }
 
     /**
      * Start listening to dstat data, extract header and cache it.
@@ -132,9 +150,8 @@ function monitor(config) {
 
         beginData = beginData.concat(data.toString().split('\n'));
 
-        if (beginData.length > 10) {
+        if (beginData.length > 15) {
             stream.pause();
-            header = parseHeader(beginData, plugins);
             stream.removeListener("data", onData);
 
             log("Header parsed:", header);
@@ -153,21 +170,22 @@ function monitor(config) {
         stream.destroy();
     });
 
-    var options = { env: config.env };
+    var options = {env: config.env};
 
-    options.stdio = debug ? ['inherit', 'inherit', 'inherit'] : ['ignore', 'ignore', 'inherit'];
+    options.stdio = debug ? [process.stdin, process.stdout, process.stderr] : ['ignore', 'ignore', process.stderr];
 
     var proc = spawn('dstat', plugins, options);
 
     proc.on('exit', function (code) {
-        console.log('Child process (dstat) exited with code ' + code);
+        console.log('Child process (dstat) exited with code', code);
+        console.log('Enable debug=true in config.js to see full error report.');
         stream.destroy();
     });
 
     if (debug) {
         /*
-        Show in console plain data that dstat sends to stdout
-        */
+         Show in console plain data that dstat sends to stdout
+         */
         proc.on('data', function (data) {
             console.log(data + "");
         });

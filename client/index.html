@@ -210,9 +210,9 @@
 
                 switch (msg.type) {
                     case 'header':
-                        console.log('Header received...');
+                        console.log('Header received...', msg.data);
                         headerMap = parser.buildHeaderMap(msg.data);
-                        console.log('Header parsed...');
+                        console.log('Header parsed...', headerMap);
                         console.log("Prepare all charts...");
 
                         charts = initCharts(headerMap);
