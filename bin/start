@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+require('../start');
+
+/*
+ Do in terminal: chmod +x bin/start
+ so it will execute when you call it with: ./server
+*/

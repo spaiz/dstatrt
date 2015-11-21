@@ -1,7 +1,0 @@
-#!/usr/bin/env node
-require('../app');
-
-/*
- Do in terminal: chmod +x bin/server
- so it will execute when you call it with: ./server
-*/

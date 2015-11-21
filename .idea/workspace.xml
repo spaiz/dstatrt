@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c498083-0b39-4bb5-999f-c15af5aa2d26" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/lib/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/.bin/wscat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/fixtures/big.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/build/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/LICENSE-GPL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/coverage/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/coverage/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/coverage/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/coverage/utf8.js/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/coverage/utf8.js/utf8.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/common.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/debugger-agent/include/debugger-agent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/debugger-agent/src/agent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/v8/include/v8-util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/v8/include/v8.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/v8/include/v8config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/v8/testing/gtest-type-names.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/v8/third_party/fdlibm/fdlibm.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.node-gyp/0.12.2/deps/v8/tools/shell-utils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/bench/parser.benchmark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/bench/sender.benchmark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/bench/speed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/bench/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/bin/wscat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/doc/ws.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/fileapi/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/fileapi/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/fileapi/public/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/fileapi/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/fileapi/public/uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/fileapi/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/serverstats-express_3/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/serverstats-express_3/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/serverstats-express_3/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/serverstats/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/serverstats/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/serverstats/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/examples/ssl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/lib/commander.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/commander/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/nan/.index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/nan/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/nan/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/nan/nan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/nan/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/tinycolor/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/tinycolor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/tinycolor/example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/tinycolor/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/tinycolor/tinycolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/src/bufferutil.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/src/validation.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/BufferPool.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/Receiver.hixie.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/Receiver.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/Sender.hixie.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/Sender.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/Validation.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/WebSocket.integration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/WebSocket.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/WebSocketServer.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/autobahn-server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/autobahn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/agent1-cert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/agent1-key.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/ca1-cert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/ca1-key.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/certificate.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/key.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/request.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/fixtures/textfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/hybi-common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/test/testserver.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bin/server" afterPath="$PROJECT_DIR$/bin/start" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/monitor/worker.js" afterPath="$PROJECT_DIR$/consumer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/.npmignore" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.npmignore" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/.travis.yml" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/.travis.yml" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/.travis.yml" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.travis.yml" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/.zuul.yml" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/.zuul.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/.zuul.yml" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/.zuul.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/BufferPool.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/BufferPool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/BufferUtil.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/BufferUtil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/Gruntfile.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/History.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/History.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/History.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/LICENSE-MIT.txt" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/LICENSE-MIT.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/Makefile" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/README.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/README.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/README.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/Readme.md" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Receiver.hixie.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Receiver.hixie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Receiver.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Receiver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Sender.hixie.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Sender.hixie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Sender.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Sender.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Validation.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/Validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/WebSocket.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/WebSocket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/WebSocketServer.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/WebSocketServer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/test/after-test.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/test/after-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/debug.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/engine.io.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/engine.io.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/node_modules/better-assert/example.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/node_modules/better-assert/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/node_modules/better-assert/example.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/node_modules/better-assert/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/node_modules/better-assert/example.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/node_modules/better-assert/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/node_modules/better-assert/example.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/node_modules/better-assert/example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/test/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/index.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/component-emitter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/node_modules/better-assert/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/node_modules/better-assert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/node_modules/better-assert/node_modules/callsite/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/node_modules/better-assert/node_modules/callsite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/node_modules/better-assert/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/node_modules/better-assert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/node_modules/better-assert/node_modules/callsite/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/node_modules/better-assert/node_modules/callsite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/node_modules/better-assert/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/node_modules/better-assert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/node_modules/better-assert/node_modules/callsite/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/node_modules/better-assert/node_modules/callsite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/xmlhttprequest/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/xmlhttprequest/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/node_modules/better-assert/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/node_modules/better-assert/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/node_modules/better-assert/node_modules/callsite/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/node_modules/better-assert/node_modules/callsite/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/to-array/package.json" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/to-array/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/lib/socket.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/lib/socket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/test/test.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/test.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/parseuri/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/tests.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js" afterPath="$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js" />
+    </list>
+    <ignored path="dstat.dev.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="dstat.dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/core/data.cvs" />
+        <option value="$PROJECT_DIR$/tests/data.csv" />
+        <option value="$PROJECT_DIR$/tests/socket.js" />
+        <option value="$PROJECT_DIR$/tests/reader.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/tests/csv_test_data.csv" />
+        <option value="$PROJECT_DIR$/tests/cvsparse.js" />
+        <option value="$PROJECT_DIR$/core/websockets.js" />
+        <option value="$PROJECT_DIR$/tests/pipe.js" />
+        <option value="$PROJECT_DIR$/top.html" />
+        <option value="$PROJECT_DIR$/public/js/highcharts/js/highcharts.src.js" />
+        <option value="$PROJECT_DIR$/tests/training.js" />
+        <option value="$PROJECT_DIR$/tests/inherit.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/js/dstat.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/core/pipe.js" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/tests/parse.js" />
+        <option value="$PROJECT_DIR$/tests/data/dstat.csv" />
+        <option value="$PROJECT_DIR$/client/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/csv.csv" />
+        <option value="$PROJECT_DIR$/listener.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/worker.js" />
+        <option value="$PROJECT_DIR$/logger/index.js" />
+        <option value="$PROJECT_DIR$/monitor/index.js" />
+        <option value="$PROJECT_DIR$/monitor/worker.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/consumer/consumer.js" />
+        <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/bk.txt" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/consumer/index.js" />
+        <option value="$PROJECT_DIR$/start.js" />
+        <option value="$PROJECT_DIR$/bin/server" />
+        <option value="$PROJECT_DIR$/bin/start" />
+        <option value="$PROJECT_DIR$/client/README.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="NodeJsMochaPackageDirSetting">
+    <data>/usr/local/lib/node_modules/mocha</data>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1368" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dstat.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dstat.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dstat.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dstat.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dstat.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/server" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tests/data" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/consumer" />
+      <recent name="$PROJECT_DIR$/monitor" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/public/js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.bin/www">
+    <configuration default="false" name="cvsparse.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="cvsparse.js" working-dir="$PROJECT_DIR$/tests">
+      <method />
+    </configuration>
+    <configuration default="false" name="pipe.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="pipe.js" working-dir="$PROJECT_DIR$/tests">
+      <method />
+    </configuration>
+    <configuration default="false" name="training.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="training.js" working-dir="$PROJECT_DIR$/tests">
+      <method />
+    </configuration>
+    <configuration default="false" name="inherit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="inherit.js" working-dir="$PROJECT_DIR$/tests">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Test Parse.js" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-directory>$PROJECT_DIR$/tests</test-directory>
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Mocha.Test Parse.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.bin/www" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.cvsparse.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.pipe.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.training.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.inherit.js" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.inherit.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.training.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.pipe.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.cvsparse.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c498083-0b39-4bb5-999f-c15af5aa2d26" name="Default" comment="" />
+      <created>1435430500900</created>
+      <option name="number" value="Default" />
+      <updated>1435430500900</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25183016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37689394" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.431962" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34579438" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="99" y="127" width="1168" height="438" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897195" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="subLabel" />
+        <watch expression="index == i || header[i] == &quot;&quot;" />
+        <watch expression="item" />
+        <watch expression="header[i]" />
+        <watch expression="data" />
+        <watch expression="data[0]" language="JavaScript" />
+      </configuration>
+      <configuration name="mocha-javascript-test-runner">
+        <watch expression="parseFloat(model.values[i].replace('%', '').trim())" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/consumer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="192" column="89" selection-start-line="192" selection-start-column="89" selection-end-line="192" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/highcharts/js/highcharts.src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14646" column="34" selection-start-line="14646" selection-start-column="34" selection-end-line="14646" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/dstat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/dstat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/dstat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/socket.io-client/lib/on.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3251534">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm10/system/extLibs/nodejs-v0.12.2-src/core-modules-sources/lib/child_process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.5879397">
+          <caret line="947" column="39" selection-start-line="947" selection-start-column="37" selection-end-line="947" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/WebSocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.1017966">
+          <caret line="804" column="3" selection-start-line="804" selection-start-column="3" selection-end-line="804" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm10/system/extLibs/nodejs-v0.12.2-src/core-modules-sources/lib/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7185628">
+          <caret line="199" column="5" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/highcharts/js/highcharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.48502994">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/highcharts/js/highcharts.src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14646" column="34" selection-start-line="14646" selection-start-column="34" selection-end-line="14646" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/socket.io-client/node_modules/engine.io-client/engine.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33123028">
+          <caret line="605" column="21" selection-start-line="605" selection-start-column="14" selection-end-line="605" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/socket.io-client/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24242425">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/socket.io-client/lib/manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33208954">
+          <caret line="439" column="25" selection-start-line="439" selection-start-column="13" selection-end-line="439" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/socket.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/mem.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/fs.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/disk.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/cpu.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/top.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/dstat.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/net.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/dstat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6210526">
+          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7128713">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69902915">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3559322">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27190334">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.0993378">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38066465">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5394738">
+          <caret line="220" column="19" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.953643">
+          <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/start">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21752267">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10876133">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61933535">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.054380666">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

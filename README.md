@@ -26,7 +26,7 @@ Install process. I assume you have node.js, Python and git preinstalled. Run thi
 3. git clone https://github.com/spaiz/dstatrt.git
 4. cd dstatrt
 5. npm install
-5. node app.js
+5. node start.js
 6. Open **client/index.html** file in any browser. Best works with Chrome.
 
 You can edit **dstatrt/config.js** file. You can enable/disable dstat plugins, defined enviroment variables for MySQL, Mongodb, Redis ad etc.
@@ -43,3 +43,18 @@ Official dstat github:
 
 You can also download additional plugins (for example dstat_mongodb_cmds.py) from here:
 [https://github.com/gianpaj/dstat/tree/master/plugins](https://github.com/gianpaj/dstat/tree/master/plugins)
+
+p.s
+
+Have a problem? Do debug: true in config and run node worker.
+
+1. Problem: No module named MySQLdb
+
+    Solution:
+        sudo pip2.7 install MySQL-python
+
+2. Module dstat_memcache_hits failed to load. (Plugin needs the memcache module)
+
+    Solution:
+        sudo apt-get install memcached
+        sudo apt-get install libmemcached-tools

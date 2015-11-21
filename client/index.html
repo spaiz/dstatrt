@@ -200,32 +200,25 @@
 
         var charts = [];
 
-        var socket = io.connect(url, {reconnection: false});
+        var socket = io.connect(url, {reconnection: true});
+
         socket.on('connect', function () {
-
             console.log("I am connected! Send header request...");
-            socket.emit('message', 'header');
+            socket.emit('header');
 
-            socket.on('message', function (msg) {
+            socket.on('header', function(msg) {
+                console.log('Header received...', msg);
+                headerMap = parser.buildHeaderMap(msg);
+                console.log('Header parsed...', headerMap);
+                console.log("Prepare all charts...");
 
-                switch (msg.type) {
-                    case 'header':
-                        console.log('Header received...', msg.data);
-                        headerMap = parser.buildHeaderMap(msg.data);
-                        console.log('Header parsed...', headerMap);
-                        console.log("Prepare all charts...");
+                charts = initCharts(headerMap);
+                console.log('Charts built. Subscribe to get sampling data...');
 
-                        charts = initCharts(headerMap);
-                        console.log('Send sampling data request...');
-                        socket.emit('message', 'sampling');
-                        break;
-
-                    case 'sampling':
-                        var dataRowArr = parser.parseDataRow(msg.data);
-                        updateCharts(charts, dataRowArr);
-
-                        break;
-                }
+                socket.on('sampling', function (msg) {
+                    var dataRowArr = parser.parseDataRow(msg);
+                    updateCharts(charts, dataRowArr);
+                });
             });
         });
 

@@ -14,12 +14,12 @@
  * @type {{dataBuffer: string, env: {}, plugins: string[], port: number, debug: boolean, delay: number}}
  */
 module.exports = {
-    dataBuffer : "dstat_pipe",
+    dataBuffer : "/var/www/dstat.dev/dstat_pipe",
     env: {
         DSTAT_MYSQL_USER: 'root',
         DSTAT_MYSQL_PWD: 'root'
     },
-    plugins: ['--redis',  '--mongodb-cmds', '--mysql5-cmds', '--mysql5-conn', '--mysql5-io', '--mysql5-keys', '--cpu', '-C,0,3,total', '--mem', '--page', '--fs', '--disk', '--disk-util', '--socket', '--net', '-N', 'lo,total'],
+    plugins: ['--redis', '--cpu', '--mongodb-cmds', '--mysql5-cmds', '--mysql5-rps', '--mysql5-conn', '--mysql5-io', '--mysql5-keys', '--mem', '--page', '--fs', '--disk', '--disk-util', '--socket', '--net', '-N', 'lo,total'],
     port: 3016,
     debug: false,
     delay: 1
@@ -30,6 +30,7 @@ module.exports = {
  plugins:
  [
  '--redis',
+ '--memcache',
  '--mongodb-cmds',
  '--mysql5-cmds',
  '--mysql5-conn',

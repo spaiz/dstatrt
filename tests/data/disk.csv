@@ -1,0 +1,15 @@
+"Dstat 0.7.2 CSV output"
+"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
+"Host:","debian",,,,"User:","alexander"
+"Cmdline:","dstat --disk --output disk.csv",,,,"Date:","19 Jul 2015 18:14:32 IDT"
+
+"dsk/total",
+"read","writ"
+30123.279,90625.907
+4096.0,897024.0
+0.0,0.0
+0.0,0.0
+0.0,0.0
+0.0,0.0
+16384.0,21397504.0
+0.0,2072576.0
